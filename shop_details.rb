@@ -2,10 +2,10 @@
 
 $LOAD_PATH << '.'
 
-require 'users_data'
-require 'products_data'
-require 'sellers_data'
-require 'buyers_data'
+require 'user_class'
+require 'product_class'
+require 'seller_class'
+require 'buyer_class'
 
 user = User.new
 user.display_users_details
